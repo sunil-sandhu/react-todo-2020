@@ -12,7 +12,7 @@ const ToDo = () => {
   const [showError, setShowError] = useState(false);
 
   const generateId = () => {
-    if (list && list.length > 1) {
+    if (list && list.length) {
       return Math.max(...list.map((t) => t.id)) + 1;
     } else {
       return 1;
