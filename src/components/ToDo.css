@@ -1,0 +1,68 @@
+.Logo {
+  width: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.ToDo {
+  text-align: center;
+  width: 80vw;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.ToDoInput {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ToDo-Header {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 70px auto 30px;
+}
+
+.ToDo-Subheader {
+  font-size: 1em;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 4px auto 20px;
+}
+
+.ToDo-Add {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-color: transparent;
+  color: #73ff73;
+  font-size: 2rem;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 5px 5px 15px #cccccc, -5px -5px 15px #ffffff;
+}
+
+.ToDo-Add:hover {
+  box-shadow: 5px 5px 10px #cccccc, -5px -5px 10px #ffffff;
+}
+
+.ToDo-Container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ToDo-ErrorContainer {
+  height: 100px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 1rem;
+}
