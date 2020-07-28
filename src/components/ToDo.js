@@ -62,7 +62,13 @@ const ToDo = () => {
         </div>
 
         <div className="ToDoInput">
-          <input type="text" value={toDo} onChange={handleInput} onKeyPress={handleKeyPress} />
+          <input
+            type="text"
+            placeholder="I need to..."
+            value={toDo}
+            onChange={handleInput}
+            onKeyPress={handleKeyPress}
+          />
           <button className="ToDo-Add" onClick={createNewToDoItem}>
             +
           </button>
