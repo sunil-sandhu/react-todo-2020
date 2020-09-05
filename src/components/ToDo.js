@@ -21,8 +21,7 @@ const ToDo = () => {
 
   const displayError = () => {
     setShowError(true);
-    const clearTimer = setTimeout(() => setShowError(false), 3000);
-    return () => clearTimeout(clearTimer);
+    setTimeout(() => setShowError(false), 3000);
   };
   const createNewToDoItem = () => {
     //validate todo
